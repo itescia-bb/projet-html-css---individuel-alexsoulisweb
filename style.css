@@ -1,0 +1,60 @@
+body {
+    font-family: Raleway;
+    color: #444;
+    line-height: 1.375;
+    background-image: url(assets/textured_paper.png);
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    line-height: 1.375;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+p {
+    font-size: 100%;
+    padding-right: 3em;
+}
+a {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4 {
+    color: rgba(231, 152, 5, 0.945);
+    line-height: 1.375;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 300;
+}
+p {
+    font-size: 100%;
+    padding-right: 3em;
+}
+a {
+    color: #1abc9c;
+    text-decoration: underline;
+}
+a:hover {
+    color: #2ff3cc;
+    text-decoration: none;
+}

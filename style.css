@@ -69,8 +69,9 @@ h3 {
     font-weight: 300;
     text-align: center;
 }
-
-
+.center > h2{
+    text-align: center;
+}
 
 h1, h2, h3, h4 {
     color: rgba(231, 152, 5, 0.945);
@@ -95,7 +96,12 @@ p {
     font-size: 100%;
     padding-right: 3em;
 }
-
+.p>p{
+    font-size: 40px;
+    color:orange;
+    text-align: center;
+    display: block;
+}
 /*lien */
 a {
     color: #1abc9c;
@@ -111,10 +117,7 @@ a:hover {
     text-decoration: none;
 }
 
-p {
-    font-size: 100%;
-    padding-right: 3em;
-}
+
 body { margin: 0px }
 [class*='col-'] {
     float: left;
@@ -234,7 +237,6 @@ ul {
 
 
 #contact {
-	background:orange;
 	padding:25px;
 	margin:50px 0;
 }
@@ -267,14 +269,6 @@ fieldset {
     align-items: center;
   justify-content: center;
 }
-.p>p{
-    font-size: 40px;
-    color:orange;
-    text-align: center;
-    display: block;
-}
-
-
 
 body::-webkit-scrollbar {
     width: 12px;               

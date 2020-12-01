@@ -8,38 +8,15 @@
 
 
 
-
-
-
-/* Ul qui est dans div, nav et dans le headeer a ces propriétés:*/
-header > nav > div > ul {
-    list-style-type: none;
-    width: 60px;
-    margin: 0;
-    padding: 0;
-    height: 60%; 
-    position: fixed;
-    overflow: scroll;
- 
+nav{
+    float:right;
 }
 
 
-/* bar de navigation */
-.active {
-    background-color: #4CAF50;
-    color: bla;
-}
+/* Ul qui est dans div, nav 
+float:right;et dans le headeer a ces propriétés:*/
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: #4CAF50;
-}
 
-@media (max-height: 500px){
-  .social_media{
-    display: none !important;
-  }
-}
 body {
     color: #444;
     line-height: 1.375;
@@ -109,12 +86,12 @@ p {
 /*lien */
 a {
     color: #1abc9c;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a {
     color: #1abc9c;
-    text-decoration: underline;
+    text-decoration: none;
 }
 a:hover {
     color: #2ff3cc;
@@ -182,7 +159,6 @@ body { margin: 0px }
         margin-bottom: 0;
         text-align: center;
     }
-li { border-bottom: 1px solid black }
 .last { border-bottom: 0 }
 ul {
     margin-left: 0px;
@@ -264,3 +240,46 @@ body::-webkit-scrollbar {
     background-color: blue;    
     border-radius: 20px;       
   }
+
+/* mobile responsive */
+@media only screen and (max-width: 767px) { 
+   
+	
+	.grid {
+	    width: 100%;
+	    min-width: 0;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	}
+	[class*='col-'] {
+	    width: auto;
+	    float: none;
+	    margin-left: 0px;
+	    margin-right: 0px;
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+	.visible-mobile { display: block }
+	.paddedhr { padding-top: 10px }
+	.margin-align-14px { margin-top: 0px }
+	h1 {
+	    font-size: 30px;
+	    font-weight: 200;
+	}
+	.col-1-3 { padding-left: 0px !important }
+    .no-header {
+     padding-top: 0px;
+    }
+    .imgAlex > img{
+        width: 150px;
+        display: block;
+        position: absolute;
+      left: 10%;
+    border-radius: 50%;
+    }
+    
+}

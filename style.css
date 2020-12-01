@@ -1,5 +1,6 @@
 *{
     background-image: url(assets/textured_paper.png);
+
 }
 *, *:after, *:before {
   
@@ -99,6 +100,12 @@ p {
     padding-right: 3em;
 }
 .p>p{
+
+    font-size: 40px;
+    color:orange;
+    text-align: center;
+}
+.para{
     font-size: 40px;
     color:orange;
     text-align: center;
@@ -140,7 +147,8 @@ body { margin: 0px }
 }
 .grid-pad { padding: 30px 10px 0px 30px }
     .grid-pad > [class*='col-']:last-of-type { padding-right: 20px }
-.push-right { float: right }
+.push-
+right { float: right }
 /* mise en place de la largeur 
 .col-1-1 { width: 100% }*/
 .col-2-3, .col-8-12 { width: 66.66% }
@@ -261,6 +269,13 @@ body::-webkit-scrollbar {
     background-color: blue;    
     border-radius: 20px;       
   }
+/* social media icons*/
+.fa{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* mobile responsive */
 @media only screen and (max-width: 767px) { 
@@ -285,7 +300,8 @@ body::-webkit-scrollbar {
 	    padding-right: 20px;
 	}
 	.visible-mobile { display: block }
-	.paddedhr { padding-top: 10px }
+    .padde
+    dhr { padding-top: 10px }
 	.margin-align-14px { margin-top: 0px }
 	h1 {
 	    font-size: 15px;

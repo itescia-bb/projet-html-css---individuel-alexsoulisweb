@@ -6,10 +6,15 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
 /* Ul qui est dans div, nav et dans le headeer a ces propriétés:*/
 header > nav > div > ul {
     list-style-type: none;
-    width: 100px;
+    width: 60px;
     margin: 0;
     padding: 0;
     height: 60%; 
@@ -17,6 +22,7 @@ header > nav > div > ul {
     overflow: scroll;
  
 }
+
 
 /* bar de navigation */
 .active {
@@ -28,8 +34,6 @@ li a:hover:not(.active) {
     background-color: #555;
     color: #4CAF50;
 }
-
-
 
 @media (max-height: 500px){
   .social_media{
@@ -139,7 +143,7 @@ body { margin: 0px }
 .grid-pad { padding: 30px 10px 0px 30px }
     .grid-pad > [class*='col-']:last-of-type { padding-right: 20px }
 .push-right { float: right }
-/* mis en place de la largeur 
+/* mise en place de la largeur 
 .col-1-1 { width: 100% }*/
 .col-2-3, .col-8-12 { width: 66.66% }
 .col-1-2, .col-6-12 { width: 50% }
@@ -194,7 +198,7 @@ ul {
     }
 
 .hr {
-    border-bottom-color: #DDD;
+    border-bottom-color:#DDD ;
     border-bottom-style: solid;
     border-bottom-width: 1px;
     width: 100%;
@@ -227,41 +231,22 @@ ul {
     text-align: center;
 }
 
-
-.container {
-	max-width:400px;
-	width:100%;
-	margin:0 auto;
-	position:relative;
+/*formualire*/
+input,textarea{
+    width:100%;
+    border: 3px solid #DDD;
+    resize: vertical;
+    border-radius: 4px;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+}
+.content1{
+    border:3px solid #1abc9c;
+    width:50%;
+    height:50%;
+    margin: 0 auto;
 }
 
-
-#contact {
-	background:orange;
-	padding:25px;
-	margin:50px 0;
-}
-
-#contact h3 {
-	color: orange;
-	display: block;
-	font-size: 30px;
-	font-weight: 400;
-}
-
-#contact h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
-}
-
-fieldset {
-	border: medium none !important;
-	margin: 0 0 10px;
-	min-width: 100%;
-	padding: 0;
-	width: 100%;
-}
 
 /*icons : */
 
@@ -270,12 +255,11 @@ fieldset {
     align-items: center;
   justify-content: center;
 }
-
+/* scroll bar */
 body::-webkit-scrollbar {
     width: 12px;               
   }
-  body::-webkit-scrollbar-track {       
-  }
+ 
   body::-webkit-scrollbar-thumb {
     background-color: blue;    
     border-radius: 20px;       

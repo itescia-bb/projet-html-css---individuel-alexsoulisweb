@@ -13,7 +13,7 @@ html{
 nav{
     display: flex;
     justify-content: flex-end;
-    position: sticky;
+    position: fixed;
 }
 
 

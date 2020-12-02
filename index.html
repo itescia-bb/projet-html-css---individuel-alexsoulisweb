@@ -1,1 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/alex.svg" />
+    <link rel="stylesheet" href="style.css">
+    <title>Alex's Resume</title>
+</head>
+<body>
+    <header>  
+      <main>
+        <nav class="fixelement">  
+          <div id="navBar">
+            <ul>
+              <li>
+                <a href="#home">Home</a>
+              </li>
+                <li>
+                <a href="#work">Work</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#back">Background</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="imgAlex"><img src="data:image/jpeg;base64,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" alt="Image Alex Soulis"></div><a name="home" id="home"></a>
+      <section>
+        <article class="body">
+          <article class="grid grid-pad">
+            <article class="col-2-3">
+              <h1><span class="color-orange">Alex Soulis</span> <br><span class="color-orange">French/American</span><br>
+                <span class="color-orange">14 avenue de Paris 75000</span></h1>
+                    <br>
+                <div class="mouve">
+            </div>
+              <div class="hr visible-mobile"></div>
+            </article>
+          </article>
+          <br>
+          <article class="content">
+            <article class="contact-info">
+              <div class="center">
+                <h2><a href="alexsoulis@outlook.com">alexsoulis@outlook.com</a></h2>
+                <h2><a href="+ 33 63 49 19 57"> + 33 63 49 19 57</a></h2>
+              </div>
+            </article>
+            <article class="about">
+                <h2>About Me</h2>
+                <p>
+                  <strong>Creative Front-End Developer</strong> providing high-impact web solutions for diverse industry organizations. 
+                </p>
+                <p>Skilled in designing, developing and testing multiple web-based applications incorporating a range of technologies. 
+                </p>
+                <p>Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer</p>
 
+
+            </article>
+          </article>
+        </article>
+        <article class="grid grid-pad">
+          <article class="col-1-1">
+            <article class="hr"></article>
+          </article>
+          <article class="grid">
+            <article class="col-1-6">
+              <article class="content">
+                <a name="work" id="skills"></a>
+                <h2>Work Experience</h2>
+              </article>
+            </article>
+            <article class="col-5-6 margin-align-14px">
+              <article class="col-1-3">
+                <article class="content">
+                  <h2>Public Hospital</h2>Initiate stationary supplies order and give to Business Operations Manager
+                   <strong>Provide support and assistance to operating room staff</strong>  within a sterile environment regarding the assembly and operation of surgical instruments, equipment and supplies
+                  Verify correct sterilization cycles by checking and signing graphs and printouts
+                  Serve as a liaison between the surgical services staff, clinics, and CSPD (Central Services Processing Department)<a href="https://www.aphp.fr/contenu/hopital-universitaire-pitie-salpetriere-2" target="_blank">link</a>
+                </article>
+              </article>
+              <article class="col-1-3">
+                <article class="content">
+                  <h2>Hotel Dublin</h2>Experienced hospitality worker. With a <strong>Professional bacalaureat diploma in Hospitality Management.</strong> Proven ability to run a hotel front desk, keep customers satisfied, and resolve conflicts. Responsible, knowledgeable, and technically savvy, the perfect candidate your Hotel Front Desk Manager job<a href="https://www.grandcanalhotel.ie/en/" target="_blank">link</a>
+                </article>
+              </article>
+              <article class="col-1-3">
+                <article class="content">
+                  <h2>Hotel Paris </h2>Experienced hospitality worker. With a <strong>Professional Bacualorat diploma in Hospitality Management</strong>. Proven ability to run a hotel front desk, keep customers satisfied, and resolve conflicts. Responsible, knowledgeable, and technically savvy, the perfect candidate your Hotel Front Desk Manager job<a href="https://www.royal-st-honore.com/en/" target="_blank">link</a>
+                </article>
+              </article>
+            </article>
+            <article class="grid">
+              <article class="col-1-6">
+                <article class="content">
+                  <a name="back" id="back"></a>
+                  <h2><time>Skills</time></h2>
+                </article>
+              </article>
+              <article class="col-5-6 margin-align-14px">
+                <article class="col-1-3">
+                  <article class="content">
+                    <h2>HTML</h2><time>Involvement in the development life cycle on large-scale development and enhancement projects, providing LOE estimates and guidance on scope
+                      Contribute to and follow best practices for high quality software development, <em>defect management and Test-Driven Development (TDD) practices</em>
+                      Collaborate to develop conceptual and detailed development plans, and work with internal and external resources to drive the plans to completion
+                      Responsible for acting as a liaison between application development and business units while providing development and consulting support.
+                      </time>
+                  </article>
+                </article>
+                <article class="col-1-3">
+                  <article class="content">
+                    <h2>CSS</h2>Has strong knowledge of design principles, typography, user interfaces, web standards and usability
+                    <em>Ability to produce quality work products with attention to detail</em>
+                    Basic knowledge of image authoring tools, to be able to crop, resize, or perform small adjustments on an image
+                    Detail-oriented work ethic with strong commitment to code quality
+                    Basic SEO knowledge
+                    Ability to write maintainable, modular clean code
+                    Knowledge of usability principles, cross-browser compatibility, and HTML document architecture
+                    Ability to write high-performance, reusable code for UI components
+                    Impeccable attention to detail</time>
+                  </article>
+                </article>
+                <article class="col-1-3">
+                  <article class="content">
+                    <h2>JS</h2>Platform tooling management
+                    <em>Application maintenance, support and development teams</em>
+                    Provide direct first level technical support for the Jive business team
+                    Platform change management automation
+                    Support larger platform management tasks related to system maintenance and platform efficiency including
+                    Development and maintenance of internally used business operations tools, including but not limited to
+                    Platform configuration management automation</time>
+                  </article>
+                </article>
+              </article>
+            </article>
+          </article>
+
+          <article class="grid">
+            <article class="col-1-6">
+              <article class="content">
+                <a name="back" id="back"></a>
+                <h2><time>Studies</time></h2>
+              </article>
+            </article>
+            <article class="col-5-6 margin-align-14px">
+              <article class="col-1-3">
+                <article class="content">
+                  <h2><time>Coding Factory 2021</time></h2><time>Curently inrolled in an <u>ssociate degree in software development</u>a</time>
+                </article>
+              </article>
+              <article class="col-1-3">
+                <article class="content">
+                  <h2><time>Landmark 2017</time></h2><time>One year of general studies at <u>Ladmark College in Vermont</u></time>
+                </article>
+              </article>
+              <article class="col-1-3">
+                <article class="content">
+                  <h2><time>Le Rebours 2016</time></h2><time><u>Professional BAC degree front desk</u></time>
+                </article>
+              </article>
+            </article>
+          </article>
+        </article>
+        <br>
+        </article>
+      </section>
+      <article>
+        <p class="para">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Social Media</p>
+        <div class="logo">
+        <img src="https://img.icons8.com/android/24/000000/facebook-new.png"/>
+        <img src="https://img.icons8.com/color/48/000000/twitter.png"/>
+        <img src="https://img.icons8.com/color/48/000000/line-me.png"/>
+        <img src="https://img.icons8.com/color/48/000000/yelp.png"/>
+        <img src="https://img.icons8.com/color/48/000000/linkedin-2--v1.png"/>
+      </div>
+
+      </article>
+      <div class="hr"></div><br>
+      <div class="p">
+        <p>&nbsp; &nbsp; &nbsp; &nbsp; Hobbies :</p>
+      </div>
+      <div class="logo"><img src="https://img.icons8.com/emoji/48/000000/basketball-emoji.png" alt="icon basketball"> <img src="https://img.icons8.com/doodle/48/000000/super-mario.png" alt="icon super-mario"> <img src="https://img.icons8.com/wired/64/000000/video.png" alt="icon video"> <img src="https://img.icons8.com/doodle/48/000000/twitch.png" alt="icon twitch"> <img src="https://img.icons8.com/pastel-glyph/64/000000/airplane-front-view--v1.png" alt="icon airplane"></div><br>
+      <div class="hr"></div><a name="contact"></a>
+      <footer>
+       <br>
+        <div class="content1">
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                <label for="subject">Subject</label>
+                <textarea id="message" name="Message" placeholder="Write something a message"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+      </footer>
+    </main>
+</body>
+</html>

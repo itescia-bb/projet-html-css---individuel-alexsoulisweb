@@ -11,8 +11,7 @@ html{
 	scroll-behavior: smooth;
 
 nav{
-    display: flex;
-    justify-content: flex-end;
+    
     position: fixed;
 }
 

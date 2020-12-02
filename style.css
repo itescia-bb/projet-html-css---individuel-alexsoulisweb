@@ -149,8 +149,8 @@ body { margin: 0px }
     .grid-pad > [class*='col-']:last-of-type { padding-right: 20px }
 .push-
 right { float: right }
-/* mise en place de la largeur 
-.col-1-1 { width: 100% }*/
+/* mise en place de la largeur*/ 
+.col-1-1 { width: 100% }
 .col-2-3, .col-8-12 { width: 66.66% }
 .col-1-2, .col-6-12 { width: 50% }
 .col-1-3, .col-4-12 { width: 33.33% }

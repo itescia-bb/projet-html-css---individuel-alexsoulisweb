@@ -12,6 +12,8 @@
 nav{
     display: flex;
     justify-content: flex-end;;
+position: -webkit-sticky;
+position: sticky;
 }
 
 

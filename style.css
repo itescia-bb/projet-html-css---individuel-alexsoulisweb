@@ -10,9 +10,10 @@
 html{
 	scroll-behavior: smooth;
 
-.navBar{
+nav{
     
-    position: fixed;
+position: -webkit-sticky;
+position: sticky;
 }
 
 

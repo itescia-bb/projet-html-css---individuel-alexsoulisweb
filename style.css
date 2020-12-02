@@ -17,7 +17,7 @@ nav{
 /* about me */
 
 .about > p{
-    text-align: justify;
+    text-align: center;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -270,7 +270,7 @@ body::-webkit-scrollbar {
     border-radius: 20px;       
   }
 /* social media icons*/
-.fa{
+.fak{
   font-size: 30px;
   display: flex;
   justify-content: center;

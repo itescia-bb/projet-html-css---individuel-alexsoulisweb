@@ -10,10 +10,15 @@
 
 
 nav{
-    display: flex;
-    justify-content: flex-end;;
+    display:flex;
+overflow:hidden
 }
 
+.fixelement{
+    position:fixed;
+    top:0;
+    width:20%;
+    }
 
 /* about me */
 

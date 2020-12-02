@@ -7,14 +7,12 @@
     box-sizing: border-box;
 }
 
-html{
-	scroll-behavior: smooth;
-}
+
 
 nav{
-position: -webkit-sticky;
-position: sticky;
+    float:right;
 }
+
 
 /* about me */
 
@@ -32,7 +30,9 @@ body {
     color: #444;
     line-height: 1.375;
 }
-
+.underline{
+    color:orange;
+}
 /* image de moi :) */
 .imgAlex > img{
     width: 150px;
@@ -46,7 +46,6 @@ body {
 
 .color-orange{
     color:#FFDC00;
-    margin-left: -150px;
 }
 
 .underline{
@@ -130,8 +129,7 @@ a:hover {
 
 body { margin: 0px }
 [class*='col-'] {
-    display: flex;
-    justify-content: center;
+    float: left;
     padding-right: 20px;
 }
 [class*='col-']:last-of-type { padding-right: 0px }
@@ -150,7 +148,7 @@ body { margin: 0px }
 .grid-pad { padding: 30px 10px 0px 30px }
     .grid-pad > [class*='col-']:last-of-type { padding-right: 20px }
 .push-
-right { display: flex }
+right { float: right }
 /* mise en place de la largeur*/ 
 .col-1-1 { width: 100% }
 .col-2-3, .col-8-12 { width: 66.66% }
@@ -228,8 +226,7 @@ ul {
 }
 .talent {
     width: 90%;
-    display: flex;
-    justify-content: flex-start;
+    float: left;
 }
 .talent h2 { 
     margin-bottom: 6px;
@@ -294,6 +291,7 @@ body::-webkit-scrollbar {
 	}
 	[class*='col-'] {
 	    width: auto;
+	    float: none;
 	    margin-left: 0px;
 	    margin-right: 0px;
 	    margin-top: 10px;
@@ -328,6 +326,8 @@ body::-webkit-scrollbar {
     .mouve > h2{
         bottom: 3000px;
     }
-   
+    .underline{
+        color:orange;
+    }
     
 }
